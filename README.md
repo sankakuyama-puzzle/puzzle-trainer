@@ -18,3 +18,6 @@ Mouse Drag: Rotate the view.
 Mouse Wheel: Zoom in and out.
 Purpose
 This tool serves as a "mental blueprint" to bridge the gap between physical puzzle pieces and their complex geometric solutions. Use it as a study guide, a solving aid, or simply to appreciate the mathematical beauty of these puzzles.
+
+Information about Sankakuyama and the Tetra Ludens 3D puzzle can be found at the following URL:
+https://note.com/sankakuyama
