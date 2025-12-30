@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankakuyama / Tetra Ludens Image Trainer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; overflow: hidden; background-color: #f0f0f0; font-family: sans-serif; }
+        canvas { display: block; }
+        
+        /* 中央タイトル */
+        #center-title {
+            position: absolute; top: 20px; width: 100%;
+            text-align: center; pointer-events: none;
+            font-size: 26px; font-weight: bold; color: #222;
+            text-shadow: 1px 1px 2px white;
+        }
+
+        /* 左側ステータス */
+        #gui-container {
+            position: absolute; top: 60px; left: 25px;
+            pointer-events: none; color: #333; line-height: 1.6;
+            font-size: 18px; /* 左側テキストサイズ */
+            text-shadow: 1px 1px 1px white;
+        }
+        #status-display {
+            font-weight: bold; color: #0066cc; margin-top: 5px; min-height: 1.2em;
+        }
+
+        /* 右側操作説明 */
+        .controls {
+            position: absolute; top: 60px; right: 25px;
+            text-align: right; pointer-events: none;
+            font-size: 15px; /* 左側よりは小さく、以前よりは大きく */
+            color: #555; line-height: 1.6;
+            text-shadow: 1px 1px 1px white;
+        }
+    </style>
+</head>
+<body>
+    <div id="center-title">Sankakuyama / Tetra Ludens Image Trainer</div>
+    
+    <div id="gui-container">
+        <div id="filter-display">MODE: RANDOM (MIXED)</div>
+        <div id="cycle-display">CYCLE: 1 / 2</div>
+        <div id="file-display">FILE: ---</div>
+        <div id="speed-display">SPEED: Normal</div>
+        <div id="status-display"></div> <!-- ここにCOMPLETEDが表示される -->
+    </div>
+
+    <div class="controls">
+        <b>R</b> : Change Random Filter<br>
+        (Mixed / Tetra / Sankakuyama)<br>
+        <b>S</b> : Change Speed<br>
+        Drag: Rotate | Scroll: Zoom
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
