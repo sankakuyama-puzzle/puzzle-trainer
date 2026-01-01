@@ -4,6 +4,10 @@ An interactive 3D visualization tool for the Tetra Ludens and Sankakuyama puzzle
 Sankakuyama / Tetra Ludens Image Trainer
 Sankakuyama / Tetra Ludens Image Trainer is a web-based 3D visualization tool designed for enthusiasts of high-difficulty polyhedral puzzles.
 Solving the Tetra Ludens (14 unique pieces) and the Sankakuyama (Pyramid) puzzles typically requires 30 minutes to an hour of intense concentration. This "Image Trainer" is crafted to help beginners and experts alike develop the spatial intuition needed to conquer these challenges.
+
+Live Demo
+https://sankakuyama-puzzle.github.io/puzzle-trainer/
+
 Key Features
 Mathematical Precision: Accurate representation of the Face-Centered Cubic (FCC) lattice and 18-sided Chamfered Cube geometries.
 Interactive Visualization: Rotate the assembly 360 degrees and zoom in to inspect the intricate internal structures from any angle.
