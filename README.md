@@ -25,3 +25,9 @@ This tool serves as a "mental blueprint" to bridge the gap between physical puzz
 
 Information about Sankakuyama and the Tetra Ludens 3D puzzle can be found at the following URL:
 https://note.com/sankakuyama
+
+The Award-Winning Physical Puzzle: Sankakuyama
+The digital experience in this repository is a tribute to the physical Sankakuyama Puzzle, a masterfully crafted wooden 3D puzzle from Japan.
+Good Toy 2024 Award: Sankakuyama was honored with the prestigious Good Toy 2024 award, recognizing its excellence in design, playability, and artistic value.
+Physical Experience: While this viewer visualizes the mathematical "Metamorphosis," nothing beats the tactile warmth and satisfying "click" of the real wooden pieces forming a tetrahedron.
+How to Get One: The physical puzzle is available for order at the Tokyo Toy Museum (Museum Shop). It is highly recommended for puzzle enthusiasts and collectors who appreciate fine Japanese craftsmanship.
